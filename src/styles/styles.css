@@ -37,7 +37,8 @@ a {
 
 header {
     height: 100vh;
-
+    color: var(--color-white);
+    overflow: hidden;
 }
 
 section {
@@ -47,4 +48,31 @@ section {
     left: 0;
     top: 0;
     padding: 3rem 18rem;
+}
+
+.section {
+    transform: translateY(-100%) scale(0);
+    transition: all .4s ease-in-out;
+    background-color: var(--color-primary);
+}
+
+.sec1 {
+    display: none;
+    transform: translateY(0) scale(1);
+}
+.sec2 {
+    display: none;
+    transform: translateY(0) scale(1);
+}
+.sec3 {
+    display: none;
+    transform: translateY(0) scale(1);
+}
+.sec4 {
+    display: none;
+    transform: translateY(0) scale(1);
+}
+.sec5 {
+    display: none;
+    transform: translateY(0) scale(1);
 }
