@@ -5,6 +5,11 @@
     list-style: none;
 }
 
+:root {
+
+}
+
 body {
     background-color: palegreen;
+    font-family: 'Poppins', sans-serif;
 }
