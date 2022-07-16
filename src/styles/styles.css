@@ -60,22 +60,27 @@ section {
 .sec1 {
     display: none;
     transform: translateY(0) scale(1);
+    background-color: lightcoral;
 }
 .sec2 {
     display: none;
     transform: translateY(0) scale(1);
+    background-color: darkseagreen;
 }
 .sec3 {
     display: none;
     transform: translateY(0) scale(1);
+    background-color: goldenrod;
 }
 .sec4 {
     display: none;
     transform: translateY(0) scale(1);
+    background-color: firebrick;
 }
 .sec5 {
     display: none;
     transform: translateY(0) scale(1);
+    background-color: aqua;
 }
 
 .controls {
