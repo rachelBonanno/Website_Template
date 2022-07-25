@@ -83,6 +83,20 @@ section {
     background-color: aqua;
 }
 
+.active {
+    display: block;
+    animation: scaleAnim 1s ease-in-out;
+    transform: translateY(0) scaleY(1);
+}
+@keyframes scaleAnim {
+    0%{
+        transform: translateY(-100%) scale(0)
+    }
+    100%{
+        transform: translateY(0) scale(1)
+    }
+}
+
 .controls {
     position: fixed;
     z-index: 10;
