@@ -9,7 +9,7 @@ function PageTransitions() {
     for (let i = 0; i < sectBtn.length; i++) {
         sectBtn[i].addEventListener('click', function () {
             let currentBtn = document.querySelectorAll('.active-btn');
-            currentBtn[0].classList = currentBtn[0].className.replace('active-btn', ' ');
+            currentBtn[0].className = currentBtn[0].className.replace('active-btn', '');
             this.className += 'active-btn';
         })
     }
@@ -20,9 +20,9 @@ function PageTransitions() {
         if (id) {
             //Remove selected from the other btns
             sectBtns.forEach((btn) => {
-                btn.classList.remove('active-btn')
+                btn.classList.remove('active')
             })
-            e.target.classList.add('active-btn')
+            e.target.classList.add('active')
 
             //Hide other sections
             sections.forEach((section) => {
