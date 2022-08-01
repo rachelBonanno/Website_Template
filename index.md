@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+## Website Template Overview
 
-You can use the [editor on GitHub](https://github.com/rachelBonanno/Website_Template/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This template has a lot of feateres already precoded in css, javascript, and HTML to make building a resume website or anyother website easier. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Functioning Website Examples
 
-### Markdown
+Coming soon...
+[My Personal Resume Website](https://).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Website Features
 
+Here are some features that the template offers and a video that shows how they look and work.
+
+[1. Clickable Buttons](https://)
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+Buinsness Discription Goes Here
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rachelBonanno/Website_Template/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
