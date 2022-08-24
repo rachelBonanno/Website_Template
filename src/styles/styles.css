@@ -134,3 +134,33 @@ section {
     color: var(--color-grey-2);
     pointer-events: none;
 }
+
+/*Header-content*/
+.header-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100%;
+}
+.header-content .left-header {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.header-content .left-header .h-shape {
+    transition: all .4s ease-in-out;
+    width: 65%;
+    height: 100%;
+    background-color: var(--color-secondary);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
+}
+.header-content .left-header .image {
+    border-radius: var(--br-sm-2);
+
+}
+
+
+/*Independent components*/
