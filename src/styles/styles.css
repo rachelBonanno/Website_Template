@@ -112,7 +112,7 @@ section {
     background-color: var(--color-secondary) !important;
     transition: all .4s ease-in-out;
 }
-.controls .active-btn .i {
+.controls .active-btn i {
     color: var(--color-white) !important;
 }
 .controls .control {
@@ -129,7 +129,7 @@ section {
     box-shadow: var(--box-shadow-1);
 }
 
-.controls .control .i {
+.controls .control i {
     font-size:  1.2rem;
     color: var(--color-grey-2);
     pointer-events: none;
@@ -165,14 +165,14 @@ section {
     background-color: var(--color-black);
     transition: all .4s ease-in-out;
 }
-.header-content .left-header .image .img {
+.header-content .left-header .image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: all .4s ease-in-out;
     filter: grayscale(100%);
 }
-.header-content .left-header .image .img :hover{
+.header-content .left-header .image img:hover {
     filter: grayscale(0);
 
 }
