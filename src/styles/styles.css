@@ -40,6 +40,7 @@ header {
     height: 100vh;
     color: var(--color-white);
     overflow: hidden;
+    padding: 0 !important;
 }
 
 section {
@@ -174,8 +175,94 @@ section {
 }
 .header-content .left-header .image img:hover {
     filter: grayscale(0);
+}
+.header-content .right-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 18rem;
+}
+.header-content .right-header .name {
+    font-size: 3rem;
+}
 
+.header-content .right-header .name span {
+    color: var(--color-secondary);
+}
+.header-content .right-header p {
+    margin: 1.5rem 0;
+    line-height: 2rem;
 }
 
 
 /*Independent components*/
+.btn-con {
+    display: flex;
+    align-self: flex-start;
+}
+.main-btn {
+    border-radius: 30px;
+    color: inherit;
+    font-weight: 600;
+    position: relative;
+    border: 1px solid var(--color-secondary);
+    display: flex;
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.main-btn .btn-text {
+    padding: 0 2rem;
+}
+.main-btn .btn-icon {
+    background-color: var(--color-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 1rem;
+}
+.main-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(100%);
+    transition: all .4s ease-out;
+    z-index: -1;
+}
+.main-btn:hover {
+    transition: all 0.4s ease-out;
+}
+.main-btn:hover:before {
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-secondary);
+    transform: translateX(0);
+    transition: all 0.4s ease-out;
+}
+
+.main-title {
+    text-align: center;
+}
+.main-title h2 {
+    position: relative;
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: 700;
+}
+.main-title h2 span {
+    color: var(--color-secondary);
+}
+.main-title h2 .bg-text {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    color: var(--color-grey-5);
+    transition: all .4s ease-in-out;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    font-weight: 800;
+    font-size: 6.3rem;
+}
