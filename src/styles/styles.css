@@ -218,8 +218,21 @@ section {
     border: 1px solid var(--color-secondary);
     box-shadow: 1px 4px 15px rgba(0,0,0,.32);
 }
+.about-container .right-about .about-item .abt-text{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.about-container .right-about .about-item .abt-text .large-text{
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--color-secondary);
+}
+.about-container .right-about .about-item .abt-text .small-text {
+    padding-left: 3rem;
+    text-transform: uppercase;
 
-
+}
 
 /*Independent components*/
 .btn-con {
